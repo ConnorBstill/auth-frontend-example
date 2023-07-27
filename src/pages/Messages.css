@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+  width: 100%;
+  min-height: 25%;
+  margin-top: 20px;
+}
+
+.column {
+  width: 33.333333333%;
+  height: 100%;
+  background-color: darkgreen;
+  margin: 5px;
+}
