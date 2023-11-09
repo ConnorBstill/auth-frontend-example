@@ -9,7 +9,7 @@ const RegisterPage = () => {
 
   const navigate = useNavigate();
 
-  const handleRegisterClick = async () => {
+  const handleLoginClick = async () => {
     const data = await logIn(usernameValue, passwordValue);
     console.log(data)
 
@@ -27,7 +27,7 @@ const RegisterPage = () => {
       <input onChange={(e) => setUsernameValue(e.target.value)} placeholder='username' />
       <input onChange={(e) => setPasswordValue(e.target.value)} placeholder='password' />
 
-      <button onClick={() => handleRegisterClick()}>Register</button>
+      <button onClick={() => handleLoginClick()}>Log In</button>
       <Link to='/'>If you don't have an account yet, click here to register</Link>
     </div>
   )

@@ -11,6 +11,7 @@ const MessagePage = () => {
 
   useEffect(() => {
     const messagesData = getLastMessages();
+    console.log('messagesData', messagesData)
     
     // setMessages
   }, []);

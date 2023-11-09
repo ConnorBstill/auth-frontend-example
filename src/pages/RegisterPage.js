@@ -24,6 +24,7 @@ const RegisterPage = () => {
   return (
     <div className="app">
       <h2>Register</h2>
+
       <input onChange={(e) => setUsernameValue(e.target.value)} placeholder='username' />
       <input onChange={(e) => setPasswordValue(e.target.value)} placeholder='password' />
 
